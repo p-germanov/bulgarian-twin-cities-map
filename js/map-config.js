@@ -24,20 +24,14 @@ class TwinCitiesMap {
             bulgarian: L.divIcon({
                 className: 'bulgarian-city-marker',
                 html: '<div class="marker-pin bulgarian-pin"></div>',
-                iconSize: [20, 20],
-                iconAnchor: [10, 10]
+                iconSize: [18, 18],
+                iconAnchor: [9, 9]
             }),
             twin: L.divIcon({
                 className: 'twin-city-marker',
                 html: '<div class="marker-pin twin-pin"></div>',
-                iconSize: [16, 16],
-                iconAnchor: [8, 8]
-            }),
-            capital: L.divIcon({
-                className: 'capital-city-marker',
-                html: '<div class="marker-pin capital-pin"></div>',
-                iconSize: [24, 24],
-                iconAnchor: [12, 12]
+                iconSize: [14, 14],
+                iconAnchor: [7, 7]
             })
         };
     }
@@ -297,24 +291,17 @@ const markerStyles = `
     
     .bulgarian-pin {
         background-color: #00966e;
-        width: 16px;
-        height: 16px;
-    }
-    
-    .capital-pin {
-        background-color: #d4af37;
-        width: 20px;
-        height: 20px;
-        border: 3px solid white;
+        width: 14px;
+        height: 14px;
     }
     
     .twin-pin {
         background-color: #4a90e2;
-        width: 12px;
-        height: 12px;
+        width: 10px;
+        height: 10px;
     }
     
-    .bulgarian-city-marker, .capital-city-marker, .twin-city-marker {
+    .bulgarian-city-marker, .twin-city-marker {
         background: none;
         border: none;
     }
