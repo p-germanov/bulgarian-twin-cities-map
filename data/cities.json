@@ -5,7 +5,6 @@
       "name": "Sofia",
       "nameLocal": "София",
       "coordinates": [42.6977, 23.3219],
-      "isCapital": true,
       "description": "Capital and largest city of Bulgaria",
       "twinCities": [
         {
@@ -39,7 +38,6 @@
       "name": "Plovdiv",
       "nameLocal": "Пловдив",
       "coordinates": [42.1354, 24.7453],
-      "isCapital": false,
       "description": "Second largest city, European Capital of Culture 2019",
       "twinCities": [
         {
@@ -67,7 +65,6 @@
       "name": "Varna",
       "nameLocal": "Варна",
       "coordinates": [43.2141, 27.9147],
-      "isCapital": false,
       "description": "Major port city on the Black Sea coast",
       "twinCities": [
         {
@@ -95,7 +92,6 @@
       "name": "Burgas",
       "nameLocal": "Бургас",
       "coordinates": [42.5048, 27.4626],
-      "isCapital": false,
       "description": "Important industrial center and Black Sea port",
       "twinCities": [
         {
@@ -117,7 +113,6 @@
       "name": "Ruse",
       "nameLocal": "Русе",
       "coordinates": [43.8564, 25.9704],
-      "isCapital": false,
       "description": "Major Danube port city, known as 'Little Vienna'",
       "twinCities": [
         {
@@ -139,7 +134,6 @@
       "name": "Stara Zagora",
       "nameLocal": "Стара Загора",
       "coordinates": [42.4258, 25.6342],
-      "isCapital": false,
       "description": "Known as the 'City of Straight Streets' and 'City of Linden Trees'",
       "twinCities": [
         {

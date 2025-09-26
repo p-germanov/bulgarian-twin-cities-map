@@ -108,8 +108,7 @@ class TwinCitiesMap {
     
     // Create marker for Bulgarian city
     createBulgarianCityMarker(city) {
-        const icon = city.isCapital ? this.icons.capital : this.icons.bulgarian;
-        const marker = L.marker(city.coordinates, { icon })
+        const marker = L.marker(city.coordinates, { icon: this.icons.bulgarian })
             .addTo(this.map);
         
         marker.cityData = city;
@@ -141,6 +140,7 @@ class TwinCitiesMap {
     // Handle twin city click
     onTwinCityClick(twinCity, parentCity) {
         this.clearActiveConnections();
+        this.showConnectionToParent(twinCity, parentCity);
         this.updateInfoPanelForTwinCity(twinCity, parentCity);
     }
     
@@ -174,6 +174,21 @@ class TwinCitiesMap {
         return colors[index % colors.length];
     }
     
+    // Show connection from twin city to its Bulgarian parent
+    showConnectionToParent(twinCity, parentCity) {
+        const connection = L.polyline(
+            [twinCity.coordinates, parentCity.coordinates],
+            {
+                color: this.getConnectionColor(parentCity),
+                weight: 3,
+                opacity: 0.7,
+                dashArray: '5, 10'
+            }
+        ).addTo(this.map);
+        
+        this.activeConnections.push(connection);
+    }
+    
     // Clear active connections
     clearActiveConnections() {
         this.activeConnections.forEach(connection => {
@@ -188,7 +203,7 @@ class TwinCitiesMap {
         this.citiesData.bulgarianCities.forEach(city => {
             this.showCityConnections(city);
         });
-        this.updateInfoPanel(null, 'Showing all twin city connections');
+        this.updateInfoPanel(null, 'Showing all twin city connections.');
     }
     
     // Hide all connections
