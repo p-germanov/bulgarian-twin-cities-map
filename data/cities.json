@@ -1,0 +1,154 @@
+{
+  "bulgarianCities": [
+    {
+      "id": "sofia",
+      "name": "Sofia",
+      "nameLocal": "София",
+      "coordinates": [42.6977, 23.3219],
+      "isCapital": true,
+      "description": "Capital and largest city of Bulgaria",
+      "twinCities": [
+        {
+          "name": "Madrid",
+          "country": "Spain",
+          "coordinates": [40.4168, -3.7038],
+          "establishedYear": 1982
+        },
+        {
+          "name": "Chicago",
+          "country": "USA",
+          "coordinates": [41.8781, -87.6298],
+          "establishedYear": 1988
+        },
+        {
+          "name": "Tel Aviv",
+          "country": "Israel",
+          "coordinates": [32.0853, 34.7818],
+          "establishedYear": 1992
+        },
+        {
+          "name": "Vienna",
+          "country": "Austria",
+          "coordinates": [48.2082, 16.3738],
+          "establishedYear": 1990
+        }
+      ]
+    },
+    {
+      "id": "plovdiv",
+      "name": "Plovdiv",
+      "nameLocal": "Пловдив",
+      "coordinates": [42.1354, 24.7453],
+      "isCapital": false,
+      "description": "Second largest city, European Capital of Culture 2019",
+      "twinCities": [
+        {
+          "name": "Richmond",
+          "country": "USA",
+          "coordinates": [37.5407, -77.4360],
+          "establishedYear": 1992
+        },
+        {
+          "name": "Bratislava",
+          "country": "Slovakia",
+          "coordinates": [48.1486, 17.1077],
+          "establishedYear": 1976
+        },
+        {
+          "name": "Kutaisi",
+          "country": "Georgia",
+          "coordinates": [42.2679, 42.7064],
+          "establishedYear": 2005
+        }
+      ]
+    },
+    {
+      "id": "varna",
+      "name": "Varna",
+      "nameLocal": "Варна",
+      "coordinates": [43.2141, 27.9147],
+      "isCapital": false,
+      "description": "Major port city on the Black Sea coast",
+      "twinCities": [
+        {
+          "name": "Odessa",
+          "country": "Ukraine",
+          "coordinates": [46.4825, 30.7233],
+          "establishedYear": 1957
+        },
+        {
+          "name": "Thessaloniki",
+          "country": "Greece",
+          "coordinates": [40.6401, 22.9444],
+          "establishedYear": 1976
+        },
+        {
+          "name": "Constanta",
+          "country": "Romania",
+          "coordinates": [44.1598, 28.6348],
+          "establishedYear": 1963
+        }
+      ]
+    },
+    {
+      "id": "burgas",
+      "name": "Burgas",
+      "nameLocal": "Бургас",
+      "coordinates": [42.5048, 27.4626],
+      "isCapital": false,
+      "description": "Important industrial center and Black Sea port",
+      "twinCities": [
+        {
+          "name": "Batumi",
+          "country": "Georgia",
+          "coordinates": [41.6168, 41.6367],
+          "establishedYear": 2001
+        },
+        {
+          "name": "Bourgas",
+          "country": "France",
+          "coordinates": [47.0833, 4.4167],
+          "establishedYear": 1989
+        }
+      ]
+    },
+    {
+      "id": "ruse",
+      "name": "Ruse",
+      "nameLocal": "Русе",
+      "coordinates": [43.8564, 25.9704],
+      "isCapital": false,
+      "description": "Major Danube port city, known as 'Little Vienna'",
+      "twinCities": [
+        {
+          "name": "Giurgiu",
+          "country": "Romania",
+          "coordinates": [43.9037, 25.9699],
+          "establishedYear": 1954
+        },
+        {
+          "name": "Pisa",
+          "country": "Italy",
+          "coordinates": [43.7228, 10.4017],
+          "establishedYear": 2007
+        }
+      ]
+    },
+    {
+      "id": "stara-zagora",
+      "name": "Stara Zagora",
+      "nameLocal": "Стара Загора",
+      "coordinates": [42.4258, 25.6342],
+      "isCapital": false,
+      "description": "Known as the 'City of Straight Streets' and 'City of Linden Trees'",
+      "twinCities": [
+        {
+          "name": "Drama",
+          "country": "Greece",
+          "coordinates": [41.1533, 24.1472],
+          "establishedYear": 1985
+        }
+      ]
+    }
+  ]
+}

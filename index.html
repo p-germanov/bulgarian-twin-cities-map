@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulgarian cities and their twins</title>
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin=""/>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Bulgarian cities and their twins</h1>
+            <p>Explore the international relationships of Bulgaria's major cities</p>
+        </header>
+        
+        <div id="map"></div>
+        
+        <div class="controls">
+            <button id="showAllConnections" class="btn btn-primary">Show all connections</button>
+            <button id="hideAllConnections" class="btn btn-secondary">Hide all connections</button>
+            <button id="focusBulgaria" class="btn btn-info">Focus on Bulgaria</button>
+        </div>
+        
+        <div class="info-panel" id="infoPanel">
+            <h3>City Information</h3>
+            <div id="cityInfo">
+                <p>Click on a Bulgarian city to see its twin cities and connections.</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Leaflet JavaScript -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="js/map-config.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
