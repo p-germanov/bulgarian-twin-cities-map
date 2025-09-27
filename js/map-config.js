@@ -31,7 +31,7 @@ class TwinCitiesMap {
                 className: 'twin-city-marker',
                 html: '<div class="marker-pin twin-pin"></div>',
                 iconSize: [14, 14],
-                iconAnchor: [7, 7]
+                iconAnchor: [5, 5]
             })
         };
     }
@@ -300,13 +300,13 @@ const markerStyles = `
     }
     
     .bulgarian-pin {
-        background-color: #00966e;
+        background-color: #0066ffff;
         width: 14px;
         height: 14px;
     }
     
     .twin-pin {
-        background-color: #4a90e2;
+        background-color: #6a9fddff;
         width: 10px;
         height: 10px;
     }
