@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bulgarian cities and their twins</title>
+    <title>Twin cities of Bulgaria</title>
     
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
@@ -18,22 +18,26 @@
 <body>
     <div class="container">
         <header>
-            <h1>Bulgarian cities and their twins</h1>
-            <p>Explore the international relationships of Bulgaria's major cities</p>
+            <h1>Twin cities of Bulgaria</h1>
         </header>
         
         <div id="map"></div>
         
         <div class="controls">
-            <button id="showAllConnections" class="btn btn-primary">Show all connections</button>
-            <button id="hideAllConnections" class="btn btn-secondary">Hide all connections</button>
-            <button id="focusBulgaria" class="btn btn-info">Focus on Bulgaria</button>
+            <div>
+                <button id="showAllConnections" class="btn btn-primary">Show all connections</button>
+                <button id="hideAllConnections" class="btn btn-secondary">Hide all connections</button>
+            </div>
+            <div>
+                <button id="focusBulgaria" class="btn btn-info">Focus on Bulgaria</button>
+                <button id="focusEurope" class="btn btn-info">Focus on Europe</button>
+            </div>
         </div>
         
         <div class="info-panel" id="infoPanel">
             <h3>City twins</h3>
             <div id="cityInfo">
-                <p>Click on a Bulgarian city to see its twin cities and connections.</p>
+                <div class = "empty-state">All connections hidden. Click on a Bulgarian city to see its twin cities.</div>
             </div>
         </div>
     </div>

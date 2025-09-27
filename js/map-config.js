@@ -151,7 +151,7 @@ class TwinCitiesMap {
                 [city.coordinates, twinCity.coordinates],
                 {
                     color: this.getConnectionColor(city),
-                    weight: 3,
+                    weight: 2,
                     opacity: 0.7,
                     dashArray: '5, 10'
                 }
@@ -174,7 +174,7 @@ class TwinCitiesMap {
             [twinCity.coordinates, parentCity.coordinates],
             {
                 color: this.getConnectionColor(parentCity),
-                weight: 3,
+                weight: 2,
                 opacity: 0.7,
                 dashArray: '5, 10'
             }
@@ -209,8 +209,10 @@ class TwinCitiesMap {
     // Focus on Bulgaria
     focusOnBulgaria() {
         this.map.setView(this.config.center, this.config.bulgariaZoom);
-        this.clearActiveConnections();
-        this.updateInfoPanel(null, 'Map focused on Bulgaria. Click on a city to explore its twin cities.');
+    }
+
+    focusOnEurope() {
+        this.map.setView([48.210529, 13.472354], 4); // Center of Europe
     }
     
     // Update info panel
@@ -218,12 +220,16 @@ class TwinCitiesMap {
         const infoDiv = document.getElementById('cityInfo');
         
         if (message) {
-            infoDiv.innerHTML = `<p>${message}</p>`;
+            infoDiv.innerHTML = `<div class="empty-state">${message}</div>`;
             return;
         }
         
         if (!city) {
-            infoDiv.innerHTML = '<p>Click on a Bulgarian city to see its twin cities.</p>';
+            infoDiv.innerHTML = `
+                <div class="empty-state">
+                    All connections hidden. Click on a Bulgarian city to see its twin cities.
+                </div>
+            `;
             return;
         }
         
@@ -245,8 +251,8 @@ class TwinCitiesMap {
         
         infoDiv.innerHTML = `
             <h4>${twinCity.name}, ${twinCity.country}</h4>
-            <div class="twin-city">
-                Twin of: <strong>${parentCity.name}, Bulgaria</strong> (${twinCity.establishedYear})
+            <div class="twin-city clickable" onclick="window.twinCitiesMap.focusOnCity([${parentCity.coordinates[0]}, ${parentCity.coordinates[1]}], '${parentCity.name}')">
+                <strong>${parentCity.name}, Bulgaria</strong> (${twinCity.establishedYear})
             </div>
         `;
     }
@@ -264,6 +270,10 @@ class TwinCitiesMap {
         
         document.getElementById('focusBulgaria').addEventListener('click', () => {
             this.focusOnBulgaria();
+        });
+
+        document.getElementById('focusEurope').addEventListener('click', () => {
+            this.focusOnEurope();
         });
     }
     
