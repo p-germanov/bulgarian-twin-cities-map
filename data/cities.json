@@ -2,10 +2,8 @@
   "bulgarianCities": [
     {
       "id": "sofia",
-      "name": "Sofia",
-      "nameLocal": "София",
+      "name": "Sofia",      
       "coordinates": [42.6977, 23.3219],
-      "description": "Capital and largest city of Bulgaria",
       "twinCities": [
         {
           "name": "Madrid",
@@ -36,9 +34,7 @@
     {
       "id": "plovdiv",
       "name": "Plovdiv",
-      "nameLocal": "Пловдив",
       "coordinates": [42.1354, 24.7453],
-      "description": "Second largest city, European Capital of Culture 2019",
       "twinCities": [
         {
           "name": "Richmond",
@@ -63,9 +59,7 @@
     {
       "id": "varna",
       "name": "Varna",
-      "nameLocal": "Варна",
       "coordinates": [43.2141, 27.9147],
-      "description": "Major port city on the Black Sea coast",
       "twinCities": [
         {
           "name": "Odessa",
@@ -90,9 +84,7 @@
     {
       "id": "burgas",
       "name": "Burgas",
-      "nameLocal": "Бургас",
       "coordinates": [42.5048, 27.4626],
-      "description": "Important industrial center and Black Sea port",
       "twinCities": [
         {
           "name": "Batumi",
@@ -111,9 +103,7 @@
     {
       "id": "ruse",
       "name": "Ruse",
-      "nameLocal": "Русе",
       "coordinates": [43.8564, 25.9704],
-      "description": "Major Danube port city, known as 'Little Vienna'",
       "twinCities": [
         {
           "name": "Giurgiu",
@@ -132,9 +122,7 @@
     {
       "id": "stara-zagora",
       "name": "Stara Zagora",
-      "nameLocal": "Стара Загора",
       "coordinates": [42.4258, 25.6342],
-      "description": "Known as the 'City of Straight Streets' and 'City of Linden Trees'",
       "twinCities": [
         {
           "name": "Drama",
