@@ -24,8 +24,8 @@ class TwinCitiesMap {
             bulgarian: L.divIcon({
                 className: 'bulgarian-city-marker',
                 html: '<div class="marker-pin bulgarian-pin"></div>',
-                iconSize: [18, 18],
-                iconAnchor: [9, 9]
+                iconSize: [16, 16],
+                iconAnchor: [8, 8]
             }),
             twin: L.divIcon({
                 className: 'twin-city-marker',
@@ -151,7 +151,7 @@ class TwinCitiesMap {
                 [city.coordinates, twinCity.coordinates],
                 {
                     color: this.getConnectionColor(city),
-                    weight: 2,
+                    weight: 1,
                     opacity: 0.7,
                     dashArray: '5, 10'
                 }
@@ -174,7 +174,7 @@ class TwinCitiesMap {
             [twinCity.coordinates, parentCity.coordinates],
             {
                 color: this.getConnectionColor(parentCity),
-                weight: 2,
+                weight: 1,
                 opacity: 0.7,
                 dashArray: '5, 10'
             }
