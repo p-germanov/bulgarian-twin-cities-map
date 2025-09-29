@@ -1,21 +1,26 @@
 # Bulgarian cities and their twins
 
-An interactive web map showcasing the twin city relationships of major Bulgarian cities around the world.
+An interactive web map showcasing the twin city relationships of Bulgarian cities around the world.
 
 ## Cities Included
 
-The map currently includes data for 6 major Bulgarian cities:
+The map currently includes data for the following Bulgarian cities:
 
-1. **Sofia** (София) - Capital city with 4 twin cities
-2. **Plovdiv** (Пловдив) - 3 twin cities
-3. **Varna** (Варна) - 3 twin cities
-4. **Burgas** (Бургас) - 2 twin cities
-5. **Ruse** (Русе) - 2 twin cities
-6. **Stara Zagora** (Стара Загора) - 2 twin cities
+ - **Sofia** (София)
+ - **Plovdiv** (Пловдив)
+ - **Varna** (Варна)
+ - **Burgas** (Бургас)
+ - **Ruse** (Русе)
+ - **Stara Zagora** (Стара Загора)
+ - **Blagoevgrad** (Благоевград)
 
 ## How to use
 
-### Running the website
+### Webpage
+
+[Twin cities of Bulgaria](https://p-germanov.github.io/bulgarian-twin-cities-map/)
+
+### Run the website locally
 
 1. **Using Python (Recommended):**
    ```bash
@@ -52,19 +57,12 @@ The city data is stored in JSON format with the following structure:
     {
       "id": "sofia",
       "name": "Sofia",
-      "nameLocal": "София",
       "coordinates": [42.6977, 23.3219],
-      "population": 1400000,
-      "region": "Sofia City",
-      "isCapital": true,
-      "description": "Capital and largest city of Bulgaria",
       "twinCities": [
         {
           "name": "Madrid",
           "country": "Spain",
           "coordinates": [40.4168, -3.7038],
-          "establishedYear": 1982,
-          "type": "sister_city"
         }
       ]
     }
