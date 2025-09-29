@@ -235,12 +235,12 @@ class TwinCitiesMap {
         
         const twinCitiesHtml = city.twinCities.map(twin => `
             <div class="twin-city clickable" onclick="window.twinCitiesMap.focusOnCity([${twin.coordinates[0]}, ${twin.coordinates[1]}], '${twin.name}')">
-                <strong>${twin.name}, ${twin.country}</strong> (${twin.establishedYear})
+                <strong>${twin.name}, ${twin.country}</strong>
             </div>
         `).join('');
         
         infoDiv.innerHTML = `
-            <h4>${city.name}</h4>
+            <h4>${city.name} - ${city.twinCities.length}</h4>
             ${twinCitiesHtml}
         `;
     }
@@ -252,7 +252,7 @@ class TwinCitiesMap {
         infoDiv.innerHTML = `
             <h4>${twinCity.name}, ${twinCity.country}</h4>
             <div class="twin-city clickable" onclick="window.twinCitiesMap.focusOnCity([${parentCity.coordinates[0]}, ${parentCity.coordinates[1]}], '${parentCity.name}')">
-                <strong>${parentCity.name}, Bulgaria</strong> (${twinCity.establishedYear})
+                <strong>${parentCity.name}, Bulgaria</strong>
             </div>
         `;
     }
