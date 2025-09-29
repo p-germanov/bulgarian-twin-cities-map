@@ -95,4 +95,4 @@ This project is open source and available under the MIT License.
 
 - Map data © [OpenStreetMap](https://www.openstreetmap.org/) contributors
 - Mapping library: [Leaflet.js](https://leafletjs.com/)
-- Twin city relationship data compiled from various municipal sources
+- Data taken from the [_List of twin towns and sister cities in Bulgaria_](https://en.wikipedia.org/wiki/List_of_twin_towns_and_sister_cities_in_Bulgaria) Wikipedia page

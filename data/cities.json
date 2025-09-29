@@ -2,133 +2,679 @@
   "bulgarianCities": [
     {
       "id": "sofia",
-      "name": "Sofia",      
-      "coordinates": [42.6977, 23.3219],
+      "name": "Sofia",
+      "coordinates": [
+        42.6977,
+        23.3219
+      ],
       "twinCities": [
         {
-          "name": "Madrid",
-          "country": "Spain",
-          "coordinates": [40.4168, -3.7038],
-          "establishedYear": 1982
+          "name": "Algiers",
+          "country": "Algeria",
+          "coordinates": [
+            36.7538,
+            3.0588
+          ]
         },
         {
-          "name": "Chicago",
-          "country": "USA",
-          "coordinates": [41.8781, -87.6298],
-          "establishedYear": 1988
+          "name": "Amman",
+          "country": "Jordan",
+          "coordinates": [
+            31.9454,
+            35.9284
+          ]
+        },
+        {
+          "name": "Ankara",
+          "country": "Turkey",
+          "coordinates": [
+            39.9334,
+            32.8597
+          ]
+        },
+        {
+          "name": "Bucharest",
+          "country": "Romania",
+          "coordinates": [
+            44.4268,
+            26.1025
+          ]
+        },
+        {
+          "name": "Doha",
+          "country": "Qatar",
+          "coordinates": [
+            25.2854,
+            51.531
+          ]
+        },
+        {
+          "name": "Ho Chi Minh City",
+          "country": "Vietnam",
+          "coordinates": [
+            10.8231,
+            106.6297
+          ]
+        },
+        {
+          "name": "Kyiv",
+          "country": "Ukraine",
+          "coordinates": [
+            50.4501,
+            30.5234
+          ]
+        },
+        {
+          "name": "Pittsburgh",
+          "country": "United States",
+          "coordinates": [
+            40.4406,
+            -79.9959
+          ]
+        },
+        {
+          "name": "Shanghai",
+          "country": "China",
+          "coordinates": [
+            31.2304,
+            121.4737
+          ]
+        },
+        {
+          "name": "Tbilisi",
+          "country": "Georgia",
+          "coordinates": [
+            41.7151,
+            44.8271
+          ]
         },
         {
           "name": "Tel Aviv",
           "country": "Israel",
-          "coordinates": [32.0853, 34.7818],
-          "establishedYear": 1992
+          "coordinates": [
+            32.0853,
+            34.7818
+          ]
         },
         {
-          "name": "Vienna",
-          "country": "Austria",
-          "coordinates": [48.2082, 16.3738],
-          "establishedYear": 1990
+          "name": "Zagreb",
+          "country": "Croatia",
+          "coordinates": [
+            45.815,
+            15.9819
+          ]
         }
       ]
     },
     {
       "id": "plovdiv",
       "name": "Plovdiv",
-      "coordinates": [42.1354, 24.7453],
+      "coordinates": [
+        42.1354,
+        24.7453
+      ],
       "twinCities": [
         {
-          "name": "Richmond",
-          "country": "USA",
-          "coordinates": [37.5407, -77.4360],
-          "establishedYear": 1992
+          "name": "Bursa",
+          "country": "Turkey",
+          "coordinates": [
+            40.1885,
+            29.0609
+          ]
         },
         {
-          "name": "Bratislava",
+          "name": "Changchun",
+          "country": "China",
+          "coordinates": [
+            43.8171,
+            125.3235
+          ]
+        },
+        {
+          "name": "Columbia",
+          "country": "United States",
+          "coordinates": [
+            34.0007,
+            -81.0348
+          ]
+        },
+        {
+          "name": "Daegu",
+          "country": "South Korea",
+          "coordinates": [
+            35.8714,
+            128.6014
+          ]
+        },
+        {
+          "name": "Gyumri",
+          "country": "Armenia",
+          "coordinates": [
+            40.7937,
+            43.8447
+          ]
+        },
+        {
+          "name": "Istanbul",
+          "country": "Turkey",
+          "coordinates": [
+            41.0082,
+            28.9784
+          ]
+        },
+        {
+          "name": "Jeddah",
+          "country": "Saudi Arabia",
+          "coordinates": [
+            21.4858,
+            39.1925
+          ]
+        },
+        {
+          "name": "Kastoria",
+          "country": "Greece",
+          "coordinates": [
+            40.5234,
+            21.2678
+          ]
+        },
+        {
+          "name": "Košice",
           "country": "Slovakia",
-          "coordinates": [48.1486, 17.1077],
-          "establishedYear": 1976
+          "coordinates": [
+            48.7139,
+            21.2581
+          ]
         },
         {
-          "name": "Kutaisi",
-          "country": "Georgia",
-          "coordinates": [42.2679, 42.7064],
-          "establishedYear": 2005
+          "name": "Kumanovo",
+          "country": "North Macedonia",
+          "coordinates": [
+            42.1287,
+            21.7153
+          ]
+        },
+        {
+          "name": "Leskovac",
+          "country": "Serbia",
+          "coordinates": [
+            42.9995,
+            21.9463
+          ]
+        },
+        {
+          "name": "Lviv",
+          "country": "Ukraine",
+          "coordinates": [
+            49.8397,
+            24.0297
+          ]
+        },
+        {
+          "name": "Okayama",
+          "country": "Japan",
+          "coordinates": [
+            34.6617,
+            133.9213
+          ]
+        },
+        {
+          "name": "Petra",
+          "country": "Jordan",
+          "coordinates": [
+            30.3285,
+            35.4745
+          ]
+        },
+        {
+          "name": "Saint Petersburg",
+          "country": "Russia",
+          "coordinates": [
+            59.9343,
+            30.3351
+          ]
+        },
+        {
+          "name": "Samarkand",
+          "country": "Uzbekistan",
+          "coordinates": [
+            39.6543,
+            66.9597
+          ]
+        },
+        {
+          "name": "Shenzhen",
+          "country": "China",
+          "coordinates": [
+            22.5431,
+            114.0579
+          ]
+        },
+        {
+          "name": "Thessaloniki",
+          "country": "Greece",
+          "coordinates": [
+            40.6401,
+            22.9444
+          ]
+        },
+        {
+          "name": "Valencia",
+          "country": "Venezuela",
+          "coordinates": [
+            10.1833,
+            -68
+          ]
+        },
+        {
+          "name": "Yekaterinburg",
+          "country": "Russia",
+          "coordinates": [
+            56.8389,
+            60.6057
+          ]
         }
       ]
     },
     {
       "id": "varna",
       "name": "Varna",
-      "coordinates": [43.2141, 27.9147],
+      "coordinates": [
+        43.2141,
+        27.9147
+      ],
       "twinCities": [
         {
-          "name": "Odessa",
+          "name": "Aalborg",
+          "country": "Denmark",
+          "coordinates": [
+            57.0488,
+            9.9217
+          ]
+        },
+        {
+          "name": "Aqaba",
+          "country": "Jordan",
+          "coordinates": [
+            29.5323,
+            35.0064
+          ]
+        },
+        {
+          "name": "Cape Town",
+          "country": "South Africa",
+          "coordinates": [
+            -33.9249,
+            18.4241
+          ]
+        },
+        {
+          "name": "Dordrecht",
+          "country": "Netherlands",
+          "coordinates": [
+            51.813,
+            4.6937
+          ]
+        },
+        {
+          "name": "Kharkiv",
           "country": "Ukraine",
-          "coordinates": [46.4825, 30.7233],
-          "establishedYear": 1957
+          "coordinates": [
+            49.9923,
+            36.231
+          ]
         },
         {
-          "name": "Thessaloniki",
+          "name": "Malmö",
+          "country": "Sweden",
+          "coordinates": [
+            55.6049,
+            13.0038
+          ]
+        },
+        {
+          "name": "Ningbo",
+          "country": "China",
+          "coordinates": [
+            29.8683,
+            121.5499
+          ]
+        },
+        {
+          "name": "Novorossiysk",
+          "country": "Russia",
+          "coordinates": [
+            44.717,
+            37.7681
+          ]
+        },
+        {
+          "name": "Novosibirsk",
+          "country": "Russia",
+          "coordinates": [
+            55.0084,
+            82.936
+          ]
+        },
+        {
+          "name": "Odesa",
+          "country": "Ukraine",
+          "coordinates": [
+            46.4825,
+            30.7233
+          ]
+        },
+        {
+          "name": "Piraeus",
           "country": "Greece",
-          "coordinates": [40.6401, 22.9444],
-          "establishedYear": 1976
+          "coordinates": [
+            37.9427,
+            23.6453
+          ]
         },
         {
-          "name": "Constanta",
-          "country": "Romania",
-          "coordinates": [44.1598, 28.6348],
-          "establishedYear": 1963
+          "name": "Rostock",
+          "country": "Germany",
+          "coordinates": [
+            54.0924,
+            12.1158
+          ]
+        },
+        {
+          "name": "Surabaya",
+          "country": "Indonesia",
+          "coordinates": [
+            -7.2575,
+            112.7521
+          ]
+        },
+        {
+          "name": "Turku",
+          "country": "Finland",
+          "coordinates": [
+            60.4518,
+            22.2666
+          ]
+        },
+        {
+          "name": "Urmia",
+          "country": "Iran",
+          "coordinates": [
+            37.5539,
+            45.0788
+          ]
         }
       ]
     },
     {
       "id": "burgas",
       "name": "Burgas",
-      "coordinates": [42.5048, 27.4626],
+      "coordinates": [
+        42.5048,
+        27.4626
+      ],
       "twinCities": [
+        {
+          "name": "Alexandroupoli",
+          "country": "Greece",
+          "coordinates": [
+            40.8499,
+            25.8753
+          ]
+        },
         {
           "name": "Batumi",
           "country": "Georgia",
-          "coordinates": [41.6168, 41.6367],
-          "establishedYear": 2001
+          "coordinates": [
+            41.6423,
+            41.6339
+          ]
         },
         {
-          "name": "Bourgas",
-          "country": "France",
-          "coordinates": [47.0833, 4.4167],
-          "establishedYear": 1989
+          "name": "Gomel",
+          "country": "Belarus",
+          "coordinates": [
+            52.4331,
+            30.99
+          ]
+        },
+        {
+          "name": "Krasnodar",
+          "country": "Russia",
+          "coordinates": [
+            45.0355,
+            38.9753
+          ]
+        },
+        {
+          "name": "Miskolc",
+          "country": "Hungary",
+          "coordinates": [
+            48.103,
+            20.7937
+          ]
+        },
+        {
+          "name": "Rijeka",
+          "country": "Croatia",
+          "coordinates": [
+            45.3271,
+            14.4422
+          ]
+        },
+        {
+          "name": "Rotterdam",
+          "country": "Netherlands",
+          "coordinates": [
+            51.9225,
+            4.47917
+          ]
+        },
+        {
+          "name": "South-Western Administrative Okrug, Moscow",
+          "country": "Russia",
+          "coordinates": [
+            55.66,
+            37.54
+          ]
+        },
+        {
+          "name": "Ulsan",
+          "country": "South Korea",
+          "coordinates": [
+            35.5383,
+            129.3114
+          ]
+        },
+        {
+          "name": "Vologda",
+          "country": "Russia",
+          "coordinates": [
+            59.2224,
+            39.8913
+          ]
+        },
+        {
+          "name": "Yantai",
+          "country": "China",
+          "coordinates": [
+            37.4645,
+            121.4485
+          ]
+        },
+        {
+          "name": "Yaroslavl",
+          "country": "Russia",
+          "coordinates": [
+            57.6262,
+            39.8844
+          ]
         }
       ]
     },
     {
       "id": "ruse",
       "name": "Ruse",
-      "coordinates": [43.8564, 25.9704],
+      "coordinates": [
+        43.8564,
+        25.9704
+      ],
       "twinCities": [
+        {
+          "name": "Bijeljina",
+          "country": "Bosnia and Herzegovina",
+          "coordinates": [
+            44.757,
+            19.2132
+          ]
+        },
         {
           "name": "Giurgiu",
           "country": "Romania",
-          "coordinates": [43.9037, 25.9699],
-          "establishedYear": 1954
+          "coordinates": [
+            43.9038,
+            25.9699
+          ]
         },
         {
-          "name": "Pisa",
-          "country": "Italy",
-          "coordinates": [43.7228, 10.4017],
-          "establishedYear": 2007
+          "name": "Huainan",
+          "country": "China",
+          "coordinates": [
+            32.6465,
+            116.9961
+          ]
+        },
+        {
+          "name": "Peristeri",
+          "country": "Greece",
+          "coordinates": [
+            38.0167,
+            23.7
+          ]
+        },
+        {
+          "name": "Saint-Ouen-sur-Seine",
+          "country": "France",
+          "coordinates": [
+            48.9056,
+            2.3364
+          ]
+        },
+        {
+          "name": "Trogir",
+          "country": "Croatia",
+          "coordinates": [
+            43.5161,
+            16.2514
+          ]
+        },
+        {
+          "name": "Újbuda, Budapest",
+          "country": "Hungary",
+          "coordinates": [
+            47.4691,
+            19.0494
+          ]
+        },
+        {
+          "name": "Volgograd",
+          "country": "Russia",
+          "coordinates": [
+            48.707,
+            44.517
+          ]
         }
       ]
     },
     {
       "id": "stara-zagora",
       "name": "Stara Zagora",
-      "coordinates": [42.4258, 25.6342],
+      "coordinates": [
+        42.4258,
+        25.6342
+      ],
       "twinCities": [
         {
-          "name": "Drama",
+          "name": "Barreiro",
+          "country": "Portugal",
+          "coordinates": [
+            38.6657,
+            -9.0763
+          ]
+        },
+        {
+          "name": "Larissa",
           "country": "Greece",
-          "coordinates": [41.1533, 24.1472],
-          "establishedYear": 1985
+          "coordinates": [
+            39.6369,
+            22.4172
+          ]
+        },
+        {
+          "name": "Radom",
+          "country": "Poland",
+          "coordinates": [
+            51.4026,
+            21.1471
+          ]
+        },
+        {
+          "name": "Samara",
+          "country": "Russia",
+          "coordinates": [
+            53.1956,
+            50.1165
+          ]
+        },
+        {
+          "name": "Yueyang",
+          "country": "China",
+          "coordinates": [
+            29.3887,
+            113.1278
+          ]
+        }
+      ]
+    },
+    {
+      "id": "blagoevgrad",
+      "name": "Blagoevgrad",
+      "coordinates": [
+        42.0167,
+        23.1
+      ],
+      "twinCities": [
+        {
+          "name": "Čakovec",
+          "country": "Croatia",
+          "coordinates": [
+            46.3881,
+            16.4347
+          ]
+        },
+        {
+          "name": "Delčevo",
+          "country": "North Macedonia",
+          "coordinates": [
+            41.9792,
+            22.7667
+          ]
+        },
+        {
+          "name": "Gornji Milanovac",
+          "country": "Serbia",
+          "coordinates": [
+            44.0089,
+            20.4633
+          ]
+        },
+        {
+          "name": "Székesfehérvár",
+          "country": "Hungary",
+          "coordinates": [
+            47.1901,
+            18.4124
+          ]
         }
       ]
     }
