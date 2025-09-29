@@ -39,8 +39,12 @@ class TwinCitiesMap {
     // Initialize the map
     async init() {
         try {
-            // Create map
-            this.map = L.map('map').setView(this.config.center, this.config.zoom);
+            // Create map with controlled world wrapping
+            this.map = L.map('map', {
+                worldCopyJump: false,
+                maxBounds: [[-85, -200], [85, 200]],
+                maxBoundsViscosity: 0.8
+            }).setView(this.config.center, this.config.zoom);
             
             // Add dark theme tile layer with country outlines only
             L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png', {
